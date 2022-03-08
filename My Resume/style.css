@@ -1,0 +1,33 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.head_container {
+    display : flex;
+    justify-content: space-between;
+}
+.name_pnl {
+    display : flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.name_pnl > div h1 {
+    margin: 0px 0px 0px 10px;
+}
+.contact_pnl {
+    display : flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.contact_pnl > div p {
+    margin:0px 10px 0px 0px;
+}
+hr {
+    width: 60vmin;
+    height:10px;
+    color:black;
+    background-color:black;
+}
+.body_container {
+    display : grid;
+}
