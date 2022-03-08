@@ -13,12 +13,12 @@ body {
 }
 @media only screen and (max-width: 400px){
     html{
-        font-size: .4em;
+        font-size: .6em;
     }
 }
-@media only screen and (max-width: 200px){
+@media only screen and (max-width: 300px){
     html{
-        font-size: .3em;
+        font-size: .5em;
     }
 }
 .head_container {
