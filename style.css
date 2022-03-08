@@ -21,6 +21,11 @@ body {
         font-size: .4em;
     }
 }
+@media only screen and (max-width: 200px){
+    html{
+        font-size: .3em;
+    }
+}
 .head_container {
     display : grid;
     grid-template-columns: 30% 70%;
@@ -86,7 +91,7 @@ hr {
 }
 .education_Container_content {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 85% 15%;
 }
 .education_Container_content h3,p {
     margin: 0px;
