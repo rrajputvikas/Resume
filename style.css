@@ -11,12 +11,7 @@ body {
         font-size: .8em;
     }
 }
-@media only screen and (max-width: 350px){
-    html{
-        font-size: .6em;
-    }
-}
-@media only screen and (max-width: 250px){
+@media only screen and (max-width: 400px){
     html{
         font-size: .4em;
     }
@@ -107,4 +102,5 @@ hr {
 .skills_Container ul {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin: 0px 0px 10px 0px;
 }
