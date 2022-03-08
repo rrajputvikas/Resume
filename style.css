@@ -16,6 +16,11 @@ body {
         font-size: .6em;
     }
 }
+@media only screen and (max-width: 250px){
+    html{
+        font-size: .4em;
+    }
+}
 .head_container {
     display : grid;
     grid-template-columns: 30% 70%;
@@ -76,16 +81,25 @@ hr {
     margin: 0px 10px 10px 0px;
 }
 .education_Container {
+    display: flex;
+    flex-direction: column;
+}
+.education_Container_content {
     display: grid;
     grid-template-columns: 80% 20%;
 }
-.education_Container h3,p {
+.education_Container_content h3,p {
     margin: 0px;
 }
 #schooling {
     margin: 0px 0px 10px 0px;
 }
 #years {
-    text-align: right;
     margin: 0px 10px 0px 0px;
+    text-align: right;
+    font-size: .9em;
+}
+.skills_Container > ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
